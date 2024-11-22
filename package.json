@@ -1,0 +1,30 @@
+{
+  "name": "tdd-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moigonzalez/tdd-calculator.git"
+  },
+  "keywords": [
+    "test",
+    "tdd"
+  ],
+  "author": "Moises Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moigonzalez/tdd-calculator/issues"
+  },
+  "homepage": "https://github.com/moigonzalez/tdd-calculator#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "parcel": "^2.13.0"
+  }
+}
