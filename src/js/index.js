@@ -22,17 +22,17 @@ function divide(a, b) {
 }
 
 // Function to append value to the display
-function appendValue(value) {
+function appendValue(display, value) {
   display.value += value;
 }
 
 // Function to clear the display
-function clearDisplay() {
+function clearDisplay(display) {
   display.value = "";
 }
 
 // Function to delete the last character
-function deleteLast() {
+function deleteLast(display) {
   display.value = display.value.slice(0, -1);
 }
 
@@ -93,3 +93,13 @@ function evaluateExpression(expression) {
   if (values.length !== 1) throw new Error("Invalid calculation");
   return values[0];
 }
+
+module.exports = {
+  add,
+  subtract,
+  multiply,
+  divide,
+  appendValue,
+  clearDisplay,
+  deleteLast,
+};

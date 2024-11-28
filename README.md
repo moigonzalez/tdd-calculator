@@ -37,24 +37,15 @@ The following acceptance criteria define the functionality and behavior of the c
   - Example: `10 / 2 = 5`
 - [ ] Division by zero must display an error message (e.g., "Cannot divide by zero").
 
----
-
-## 4. Expression Parsing
-- [ ] The calculator must handle multi-step expressions:
-  - Example: `2 + 3 * 4 = 14` (following order of operations).
-
----
-
-## 5. User Input
-- [ ] The calculator must allow appending numbers and operators in sequence.
-- [ ] The calculator must handle invalid inputs gracefully (e.g., no consecutive operators like `++`).
-- [ ] After calculating a result, entering a new number must reset the display.
+## 4. Calculator functions
+- [ ] Clicking on the equal `=` button displays the resuly from the display
+- [ ] Clicking on the DEL `DEL` button removes the last character
+- [ ] The calculator must clear the display when `C` is pressed.
 
 ---
 
 ## 6. Error Handling
 - [ ] The calculator must show an appropriate error message for invalid expressions (e.g., "Invalid expression").
-- [ ] The calculator must clear the display when `C` is pressed.
 
 # The Three Rules of TDD
 
