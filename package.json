@@ -24,7 +24,10 @@
   },
   "homepage": "https://github.com/moigonzalez/tdd-calculator#readme",
   "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
     "jest": "^29.7.0",
+    "jsdom": "^25.0.1",
     "parcel": "^2.13.0"
   }
 }

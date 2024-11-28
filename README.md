@@ -6,8 +6,8 @@ The following acceptance criteria define the functionality and behavior of the c
 
 ## 1. Display
 - [ ] The calculator must have a display to show the current input or result.
-- [ ] The display should be read-only and update dynamically based on user input.
-- [ ] The display should support numeric and decimal inputs.
+- [ ] The display should be read-only 
+- [ ] The display should update dynamically based on user input.
 
 ---
 
@@ -18,10 +18,11 @@ The following acceptance criteria define the functionality and behavior of the c
   - [ ] Subtraction (`-`)
   - [ ] Multiplication (`*`)
   - [ ] Division (`/`)
-- [ ] The calculator must have a button to clear the display (`C`).
-- [ ] The calculator must have a button to delete the last character (`DEL`).
-- [ ] The calculator must have a button to calculate the result (`=`).
-- [ ] The calculator must support decimal input (`.`).
+- [ ] The calculator must have buttons for the following functionalities:
+  - [ ] Clear the display (`C`).
+  - [ ] Delete the last character (`DEL`).
+  - [ ] Calculate the result (`=`).
+  - [ ] Decimal input (`.`).
 
 ---
 
@@ -41,9 +42,6 @@ The following acceptance criteria define the functionality and behavior of the c
 ## 4. Expression Parsing
 - [ ] The calculator must handle multi-step expressions:
   - Example: `2 + 3 * 4 = 14` (following order of operations).
-- [ ] The calculator must follow the order of operations:
-  - Parentheses first (if implemented).
-  - Multiplication and division before addition and subtraction.
 
 ---
 
