@@ -36,6 +36,7 @@ The following acceptance criteria define the functionality and behavior of the c
 - [ ] The calculator must correctly perform division:
   - Example: `10 / 2 = 5`
 - [ ] Division by zero must display an error message (e.g., "Cannot divide by zero").
+- [ ] Multiplying and Dividing take precendence over adding and substracting
 
 ## 4. Calculator functions
 - [ ] Clicking on the equal `=` button displays the resuly from the display
