@@ -22,22 +22,22 @@ function divide(a, b) {
 }
 
 // Function to append value to the display
-function appendValue(display, value) {
+function appendValue(value, display = document.getElementById("display")) {
   display.value += value;
 }
 
 // Function to clear the display
-function clearDisplay(display) {
+function clearDisplay(display = document.getElementById("display")) {
   display.value = "";
 }
 
 // Function to delete the last character
-function deleteLast(display) {
+function deleteLast(display = document.getElementById("display")) {
   display.value = display.value.slice(0, -1);
 }
 
 // Function to parse and calculate the result
-function calculate() {
+function calculate(display = document.getElementById("display")) {
   try {
     const result = evaluateExpression(display.value);
     display.value = result;
@@ -94,12 +94,24 @@ function evaluateExpression(expression) {
   return values[0];
 }
 
+// Exports for test
 module.exports = {
   add,
   subtract,
   multiply,
   divide,
-  appendValue,
   clearDisplay,
+  appendValue,
   deleteLast,
-};
+  calculate
+}
+
+// Exports for html
+window.add = add;
+window.subtract = subtract;
+window.multiply = multiply;
+window.divide = divide;
+window.clearDisplay = clearDisplay;
+window.appendValue = appendValue;
+window.deleteLast = deleteLast;
+window.calculate = calculate;

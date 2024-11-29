@@ -45,9 +45,9 @@ describe('Calculator Functionality', () => {
   });
 
   test('should append values to the display', () => {
-    appendValue(display, '1');
-    appendValue(display, '+');
-    appendValue(display, '2');
+    appendValue('1', display);
+    appendValue('+', display);
+    appendValue('2', display);
     expect(display.value).toBe('1+2');
   });
 
