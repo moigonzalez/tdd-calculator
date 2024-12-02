@@ -4,7 +4,7 @@ const { JSDOM } = jsdom;
 const path = require('path');
 const html = path.join(__dirname, '../index.html');
 
-const { appendValue, clearDisplay } = require('../js/index');
+const { appendValue, clearDisplay, deleteLast } = require('../js/index');
 
 describe('Calculator Display', () => {
   let display;
