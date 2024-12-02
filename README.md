@@ -27,16 +27,16 @@ The following acceptance criteria define the functionality and behavior of the c
 ---
 
 ## 3. Operations
-- [x] The calculator must correctly perform addition:
+- [ ] The calculator must correctly perform addition:
   - Example: `2 + 3 = 5`
-- [x] The calculator must correctly perform subtraction:
+- [ ] The calculator must correctly perform subtraction:
   - Example: `7 - 2 = 5`
-- [x] The calculator must correctly perform multiplication:
+- [ ] The calculator must correctly perform multiplication:
   - Example: `4 * 5 = 20`
-- [x] The calculator must correctly perform division:
+- [ ] The calculator must correctly perform division:
   - Example: `10 / 2 = 5`
-- [x] Division by zero must display an error message (e.g., "Cannot divide by zero").
-- [x] Multiplying and Dividing take precendence over adding and substracting
+- [ ] Division by zero must display an error message (e.g., "Cannot divide by zero").
+- [ ] Multiplying and Dividing take precendence over adding and substracting
 
 ## 4. Calculator functions
 - [x] Clicking on the equal `=` button displays the resuly from the display

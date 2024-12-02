@@ -2,24 +2,13 @@ const display = document.getElementById("display");
 
 // Addition function
 function add(a, b) {
-  return a + b;
 }
 
 // Subtraction function
-function subtract(a, b) {
-  return a - b;
-}
 
 // Multiplication function
-function multiply(a, b) {
-  return a * b;
-}
 
 // Division function
-function divide(a, b) {
-  if (b === 0) throw new Error("Cannot divide by zero");
-  return a / b;
-}
 
 // Function to append value to the display
 function appendValue(value, display = document.getElementById("display")) {
@@ -97,9 +86,6 @@ function evaluateExpression(expression) {
 // Exports for test
 module.exports = {
   add,
-  subtract,
-  multiply,
-  divide,
   clearDisplay,
   appendValue,
   deleteLast,
@@ -108,9 +94,6 @@ module.exports = {
 
 // Exports for html
 window.add = add;
-window.subtract = subtract;
-window.multiply = multiply;
-window.divide = divide;
 window.clearDisplay = clearDisplay;
 window.appendValue = appendValue;
 window.deleteLast = deleteLast;

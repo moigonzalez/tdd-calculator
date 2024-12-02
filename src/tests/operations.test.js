@@ -17,30 +17,6 @@ describe('Calculator Functionality', () => {
   });
 
   test('should correctly perform addition', () => {
-    expect(add(2, 3)).toBe(5);
-    expect(add(-1, 1)).toBe(0);
-    expect(add(0, 0)).toBe(0);
-  });
 
-  test('should correctly perform subtraction', () => {
-    expect(subtract(7, 2)).toBe(5);
-    expect(subtract(5, 5)).toBe(0);
-    expect(subtract(0, 5)).toBe(-5);
-  });
-
-  test('should correctly perform multiplication', () => {
-    expect(multiply(4, 5)).toBe(20);
-    expect(multiply(-3, 3)).toBe(-9);
-    expect(multiply(0, 10)).toBe(0);
-  });
-
-  test('should correctly perform division', () => {
-    expect(divide(10, 2)).toBe(5);
-    expect(divide(9, 3)).toBe(3);
-    expect(divide(-10, 2)).toBe(-5);
-  });
-
-  test('should throw an error for division by zero', () => {
-    expect(() => divide(10, 0)).toThrow('Cannot divide by zero');
   });
 });
