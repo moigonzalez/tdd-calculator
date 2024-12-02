@@ -1,51 +1,14 @@
 const display = document.getElementById("display");
 
-// Addition function
-function add(a, b) {
-  return a + b;
-}
-
-// Subtraction function
-function subtract(a, b) {
-  return a - b;
-}
-
-// Multiplication function
-function multiply(a, b) {
-  return a * b;
-}
-
-// Division function
-function divide(a, b) {
-  if (b === 0) throw new Error("Cannot divide by zero");
-  return a / b;
-}
-
 // Function to append value to the display
 function appendValue(value, display = document.getElementById("display")) {
-  display.value += value;
 }
 
 // Function to clear the display
-function clearDisplay(display = document.getElementById("display")) {
-  display.value = "";
-}
 
 // Function to delete the last character
-function deleteLast(display = document.getElementById("display")) {
-  display.value = display.value.slice(0, -1);
-}
 
 // Function to parse and calculate the result
-function calculate(display = document.getElementById("display")) {
-  try {
-    const result = evaluateExpression(display.value);
-    display.value = result;
-  } catch (error) {
-    alert(error.message);
-    clearDisplay();
-  }
-}
 
 // Function to evaluate an expression using the operation functions
 function evaluateExpression(expression) {
@@ -96,22 +59,8 @@ function evaluateExpression(expression) {
 
 // Exports for test
 module.exports = {
-  add,
-  subtract,
-  multiply,
-  divide,
-  clearDisplay,
   appendValue,
-  deleteLast,
-  calculate
 }
 
 // Exports for html
-window.add = add;
-window.subtract = subtract;
-window.multiply = multiply;
-window.divide = divide;
-window.clearDisplay = clearDisplay;
 window.appendValue = appendValue;
-window.deleteLast = deleteLast;
-window.calculate = calculate;
