@@ -1,52 +1,6 @@
 # Calculator Acceptance Criteria
 
-The following acceptance criteria define the functionality and behavior of the calculator application:
-
----
-
-## 1. Display
-- [ ] The calculator must have a display to show the current input or result.
-- [ ] The display should be read-only 
-- [ ] The display should update dynamically based on user input.
-
----
-
-## 2. Buttons
-- [ ] The calculator must have buttons for digits `0-9`.
-- [ ] The calculator must have buttons for the following operations:
-  - [ ] Addition (`+`)
-  - [ ] Subtraction (`-`)
-  - [ ] Multiplication (`*`)
-  - [ ] Division (`/`)
-- [ ] The calculator must have buttons for the following functionalities:
-  - [ ] Clear the display (`C`).
-  - [ ] Delete the last character (`DEL`).
-  - [ ] Calculate the result (`=`).
-  - [ ] Decimal input (`.`).
-
----
-
-## 3. Operations
-- [ ] The calculator must correctly perform addition:
-  - Example: `2 + 3 = 5`
-- [ ] The calculator must correctly perform subtraction:
-  - Example: `7 - 2 = 5`
-- [ ] The calculator must correctly perform multiplication:
-  - Example: `4 * 5 = 20`
-- [ ] The calculator must correctly perform division:
-  - Example: `10 / 2 = 5`
-- [ ] Division by zero must display an error message (e.g., "Cannot divide by zero").
-- [ ] Multiplying and Dividing take precendence over adding and substracting
-
-## 4. Calculator functions
-- [ ] Clicking on the equal `=` button displays the resuly from the display
-- [ ] Clicking on the DEL `DEL` button removes the last character
-- [ ] The calculator must clear the display when `C` is pressed.
-
----
-
-## 6. Error Handling
-- [ ] The calculator must show an appropriate error message for invalid expressions (e.g., "Invalid expression").
+TO DO
 
 # The Three Rules of TDD
 
