@@ -17,6 +17,6 @@ describe('Calculator Functionality', () => {
   });
 
   test('should correctly perform addition', () => {
-
+    expect(add(1, 2)).toBe(3);
   });
 });
