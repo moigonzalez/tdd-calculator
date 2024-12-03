@@ -22,5 +22,6 @@ describe('Calculator Display', () => {
 
   test('should update dynamically when the current input changes', () => {
     appendValue('123', display);
+    expect(display.value).toBe('123');
   });
 });
