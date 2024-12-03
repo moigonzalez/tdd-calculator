@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "type": "module",
   "scripts": {
-    "start": "parcel",
+    "start": "rm -rf .parcel-cache && parcel",
     "build": "parcel build",
     "test": "jest"
   },
